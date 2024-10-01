@@ -1,0 +1,19 @@
+{
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "always",
+      "source.fixAll.stylelint": "always"
+    },
+    "stylelint.enable": true,
+    "css.validate": false,
+    "less.validate": false,
+    "scss.validate": false,
+    "stylelint.validate": [
+      "css",
+      "scss"
+    ],
+    "cssVariables.lookupFiles": [
+      "**/*.css",
+      "**/*.scss",
+      "./node_modules/@architecture-it/stylesystem/vars.css"
+    ]
+}

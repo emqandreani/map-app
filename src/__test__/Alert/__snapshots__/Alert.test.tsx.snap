@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Alert /> Should render without crash 1`] = `
+<div
+  class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation0 MuiAlert-root MuiAlert-outlinedSuccess StyleSystem__Alert_outlinedSuccess MuiAlert-outlined css-zpxbnq-MuiPaper-root-MuiAlert-root"
+  data-testid="alert"
+  data-type="false"
+  role="alert"
+  style="background-color: rgb(255, 255, 255);"
+>
+  <div
+    class="MuiAlert-icon StyleSystem__Alert_icon css-1ytlwq5-MuiAlert-icon"
+  >
+    <svg
+      aria-hidden="true"
+      class=""
+      height="16"
+      unicode="f00c"
+      viewBox="0 0 448 512"
+      width="16"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"
+        fill="var(--color-text-base)"
+      />
+    </svg>
+  </div>
+  <div
+    class="MuiAlert-message StyleSystem__Alert_message css-1pxa9xg-MuiAlert-message"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-container StyleSystem__Alert_container css-1dphqhe-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root StyleSystem__Alert_text css-1gsico8-MuiGrid-root"
+      >
+        Colaborador creado con éxito!
+      </div>
+    </div>
+  </div>
+  <div
+    class="MuiAlert-action StyleSystem__Alert_action css-ki1hdl-MuiAlert-action"
+  >
+    <button
+      aria-label="Close"
+      class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorInherit MuiIconButton-sizeSmall css-1e0d89p-MuiButtonBase-root-MuiIconButton-root"
+      tabindex="0"
+      title="Close"
+      type="button"
+    >
+      <svg
+        aria-hidden="true"
+        class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall css-ptiqhd-MuiSvgIcon-root"
+        data-testid="CloseIcon"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+        />
+      </svg>
+      <span
+        class="MuiTouchRipple-root css-1r0r0n5-MuiTouchRipple-root"
+      />
+    </button>
+  </div>
+</div>
+`;

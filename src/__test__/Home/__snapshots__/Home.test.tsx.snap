@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home /> Should render welcome text if authenticated and account exist 1`] = `
+<div
+  class="page MuiBox-root css-0"
+  data-testid="home-page"
+>
+  <h1
+    class="MuiTypography-root MuiTypography-h1 text css-aki82s-MuiTypography-root"
+    data-testid="text"
+  >
+    <span
+      class="span"
+    >
+      Hola
+    </span>
+     
+    Lionel
+    !
+  </h1>
+  <button
+    class="MuiButtonBase-root MuiButton-root StyleSystem__Button_root MuiButton-contained StyleSystem__Button_contained MuiButton-containedPrimary MuiButton-sizeMedium StyleSystem__Button_sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButton-root StyleSystem__Button_root MuiButton-contained StyleSystem__Button_contained MuiButton-containedPrimary MuiButton-sizeMedium StyleSystem__Button_sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation css-qz5d3w-MuiButtonBase-root-MuiButton-root"
+    data-testid="button"
+    tabindex="0"
+    type="button"
+  >
+    <h6
+      class="MuiTypography-root MuiTypography-subtitle2 css-rtjrfq-MuiTypography-root"
+    >
+      Ver usuarios
+    </h6>
+    <span
+      class="MuiTouchRipple-root css-1r0r0n5-MuiTouchRipple-root"
+    />
+  </button>
+</div>
+`;
+
+exports[`<Home /> Should render without crash if not authenticated 1`] = `
+<div
+  class="page MuiBox-root css-0"
+  data-testid="home-page"
+>
+  <h2
+    class="MuiTypography-root MuiTypography-h2 text css-u5kjcz-MuiTypography-root"
+    data-testid="text"
+  >
+    Por favor inicia sesión para ver la información de usuario.
+  </h2>
+</div>
+`;

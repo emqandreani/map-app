@@ -1,0 +1,9 @@
+.container {
+  bottom: 2em;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  place-content: center center;
+  align-items: center;
+  z-index: 9999;
+}

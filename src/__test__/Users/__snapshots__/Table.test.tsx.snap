@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Table /> Should render without crush 1`] = `
+<div
+  class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiTableContainer-root tableContainer css-tt2mwc-MuiPaper-root-MuiTableContainer-root"
+  data-testid="table"
+>
+  <table
+    class="MuiTable-root css-1urm07n-MuiTable-root"
+  >
+    <thead
+      class="MuiTableHead-root StyleSystem__Tablehead_head css-15wwp11-MuiTableHead-root"
+    >
+      <tr
+        class="MuiTableRow-root StyleSystem__TableRow_tbody MuiTableRow-head css-p1m2vl-MuiTableRow-root"
+      >
+        <th
+          class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeMedium css-1824csp-MuiTableCell-root"
+          data-testid="header-cell"
+          scope="col"
+        >
+          Id
+        </th>
+        <th
+          class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeMedium css-1824csp-MuiTableCell-root"
+          data-testid="header-cell"
+          scope="col"
+        >
+          Nombre
+        </th>
+        <th
+          class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeMedium css-1824csp-MuiTableCell-root"
+          data-testid="header-cell"
+          scope="col"
+        >
+          Apellido
+        </th>
+        <th
+          class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeMedium css-1824csp-MuiTableCell-root"
+          data-testid="header-cell"
+          scope="col"
+        >
+          Edad
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="MuiTableBody-root css-apqrd9-MuiTableBody-root"
+    >
+      <tr
+        class="MuiTableRow-root StyleSystem__TableRow_tbody css-p1m2vl-MuiTableRow-root"
+      >
+        <td
+          class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1acrjjy-MuiTableCell-root"
+        >
+          1
+        </td>
+        <td
+          class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1acrjjy-MuiTableCell-root"
+        >
+          Lionel
+        </td>
+        <td
+          class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1acrjjy-MuiTableCell-root"
+        >
+          Messi
+        </td>
+        <td
+          class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1acrjjy-MuiTableCell-root"
+        >
+          36
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
