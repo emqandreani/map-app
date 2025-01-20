@@ -1,18 +1,4 @@
-@import "../../layout/general";
-
-.page {
-  @extend %page-styles;
-
-  flex-direction: column;
-  justify-content: center;
-  gap: var(--spacing-6);
-
-  .text {
-    font-size: var(--title-3);
-    color: var(--primary);
-
-    .span {
-      color: var(--color-text-base);
-    }
-  }
+.root {
+  width: 500px;
+  height: 500px;
 }

@@ -6,7 +6,7 @@ const Home = lazy(() => import("@/pages/Home"));
 const AppRoutes = () => {
   return (
     <Routes>
-      <Route index element={<h1>Map?</h1>} path="/" />
+      <Route index element={<Home />} path="/" />
     </Routes>
   );
 };
