@@ -1,5 +1,5 @@
 import { Box, Typography } from "@mui/material";
-import { MapContainer, Marker, Popup, TileLayer, Polygon } from "react-leaflet";
+import { MapContainer, Marker, Popup, TileLayer, Polyline } from "react-leaflet";
 import { LatLngExpression } from "leaflet";
 import { useEffect, useRef } from "react";
 
@@ -8,12 +8,10 @@ import styles from "./styles.module.scss";
 
 export const BS_AS_POSITION: LatLngExpression = [-34.603722, -58.381592];
 
-const polygonCoordinates: LatLngExpression[] = [
+// Coordinates for the route between Palermo and San Isidro
+const routeCoordinates: LatLngExpression[] = [
   [-34.615852, -58.435348], // Palermo
-  [-34.609481, -58.383188], // Recoleta
-  [-34.611, -58.38167], // Plaza de Mayo
-  [-34.643101, -58.449082], // La Boca
-  [-34.646927, -58.499861], // Parque Avellaneda
+  [-34.525852, -58.495348], // San Isidro
 ];
 
 export default function Home() {
@@ -29,9 +27,8 @@ export default function Home() {
 
   return (
     <div className={styles.root}>
-      <div>
+      <div className={styles.titleWrapper}>
         <Typography variant="h1">Map App</Typography>
-        <Typography>Map App</Typography>
       </div>
       <div className={styles.mapWrapper} id="map">
         <MapContainer
@@ -47,12 +44,9 @@ export default function Home() {
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
             url={tileUrl}
           />
-          <Polygon pathOptions={{ color: "blue" }} positions={polygonCoordinates} />
-          {/* <Marker position={[51.505, -0.09]}>
-        <Popup>
-          A pretty CSS3 popup. <br /> Easily customizable.
-        </Popup>
-      </Marker> */}
+
+          {/* Route (Polyline) between Palermo and San Isidro */}
+          <Polyline pathOptions={{ color: "blue" }} positions={routeCoordinates} />
         </MapContainer>
       </div>
     </div>
