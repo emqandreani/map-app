@@ -1,4 +1,12 @@
 .root {
-  width: 500px;
-  height: 500px;
+  width: 100%;
+
+  .mapContainer {
+    height: 400px;
+    width: 90%;
+    margin: 1rem auto;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid red;
+  }
 }

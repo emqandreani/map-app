@@ -6,17 +6,17 @@ settings:
 
 dependencies:
   '@architecture-it/core':
-    specifier: ^1.9.1
+    specifier: ^1.12.0
     version: 1.12.0(axios@1.7.7)
   '@architecture-it/react-auth':
     specifier: 1.4.3
     version: 1.4.3(@architecture-it/core@1.12.0)(@architecture-it/react-env@1.3.1)(react-dom@18.3.1)(react@18.3.1)
   '@architecture-it/react-env':
-    specifier: ^1.2.0
+    specifier: ^1.2.2
     version: 1.3.1
   '@architecture-it/stylesystem':
-    specifier: ^3.0.0
-    version: 3.4.1(@emotion/react@11.13.3)(@emotion/styled@11.13.0)(@mui/material@5.16.7)(react-dom@18.3.1)(react@18.3.1)
+    specifier: 3.8.0
+    version: 3.8.0(@emotion/react@11.13.3)(@emotion/styled@11.13.0)(@mui/material@5.16.7)(react-dom@18.3.1)(react@18.3.1)
   '@elastic/apm-rum':
     specifier: ^5.15.0
     version: 5.16.0
@@ -32,6 +32,9 @@ dependencies:
   '@reduxjs/toolkit':
     specifier: ^1.9.6
     version: 1.9.7(react-redux@8.1.3)(react@18.3.1)
+  leaflet:
+    specifier: 1.9.4
+    version: 1.9.4
   react:
     specifier: ^18.2.0
     version: 18.3.1
@@ -54,7 +57,7 @@ devDependencies:
     version: 1.6.2(@typescript-eslint/eslint-plugin@6.21.0)(@typescript-eslint/parser@6.21.0)(eslint-config-prettier@9.1.0)(eslint-plugin-import@2.30.0)(eslint-plugin-node@11.1.0)(eslint-plugin-prettier@5.2.1)(eslint-plugin-promise@7.1.0)(eslint-plugin-react-hooks@4.6.2)(eslint-plugin-react@7.37.1)(eslint@8.57.1)(prettier@3.3.3)
   '@architecture-it/rsbuild':
     specifier: ^1.3.12
-    version: 1.5.1(@architecture-it/core@1.12.0)(@architecture-it/react-env@1.3.1)(@architecture-it/stylesystem@3.4.1)(@emotion/react@11.13.3)(@rsbuild/core@0.6.15)(@rsbuild/plugin-react@0.6.15)(@rsbuild/plugin-sass@1.0.1)(react-dom@18.3.1)(react@18.3.1)
+    version: 1.5.1(@architecture-it/core@1.12.0)(@architecture-it/react-env@1.3.1)(@architecture-it/stylesystem@3.8.0)(@emotion/react@11.13.3)(@rsbuild/core@0.6.15)(@rsbuild/plugin-react@0.6.15)(@rsbuild/plugin-sass@1.0.1)(react-dom@18.3.1)(react@18.3.1)
   '@babel/core':
     specifier: ^7.23.0
     version: 7.25.2
@@ -230,7 +233,7 @@ packages:
       dotenv-expand: 5.1.0
       minimist: 1.2.8
 
-  /@architecture-it/rsbuild@1.5.1(@architecture-it/core@1.12.0)(@architecture-it/react-env@1.3.1)(@architecture-it/stylesystem@3.4.1)(@emotion/react@11.13.3)(@rsbuild/core@0.6.15)(@rsbuild/plugin-react@0.6.15)(@rsbuild/plugin-sass@1.0.1)(react-dom@18.3.1)(react@18.3.1):
+  /@architecture-it/rsbuild@1.5.1(@architecture-it/core@1.12.0)(@architecture-it/react-env@1.3.1)(@architecture-it/stylesystem@3.8.0)(@emotion/react@11.13.3)(@rsbuild/core@0.6.15)(@rsbuild/plugin-react@0.6.15)(@rsbuild/plugin-sass@1.0.1)(react-dom@18.3.1)(react@18.3.1):
     resolution: {integrity: sha512-V1kJxOGL52wAvZsSd9BETAhxzWTfiEi/SVhdvPT+5H/07NwWa8S4FXky/MtUObJ74GcaiR7zp9UuG2AspabDUw==, tarball: https://npm.pkg.github.com/download/@architecture-it/rsbuild/1.5.1/2ba485319d246703b050d6ba0cf8b9d942261a94}
     engines: {node: '>=18'}
     peerDependencies:
@@ -252,7 +255,7 @@ packages:
     dependencies:
       '@architecture-it/core': 1.12.0(axios@1.7.7)
       '@architecture-it/react-env': 1.3.1
-      '@architecture-it/stylesystem': 3.4.1(@emotion/react@11.13.3)(@emotion/styled@11.13.0)(@mui/material@5.16.7)(react-dom@18.3.1)(react@18.3.1)
+      '@architecture-it/stylesystem': 3.8.0(@emotion/react@11.13.3)(@emotion/styled@11.13.0)(@mui/material@5.16.7)(react-dom@18.3.1)(react@18.3.1)
       '@emotion/react': 11.13.3(@types/react@18.3.10)(react@18.3.1)
       '@rsbuild/core': 0.6.15
       '@rsbuild/plugin-react': 0.6.15(@rsbuild/core@0.6.15)
@@ -261,8 +264,8 @@ packages:
       react-dom: 18.3.1(react@18.3.1)
     dev: true
 
-  /@architecture-it/stylesystem@3.4.1(@emotion/react@11.13.3)(@emotion/styled@11.13.0)(@mui/material@5.16.7)(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-O9w0kFNjqAKydXzgd14oeIGkY6HDehDMPQQt0oNRzA5K/sobnRcQWSfkK4y+Ybsj64c5ZgqOjGZNd3G3G6JUpA==, tarball: https://npm.pkg.github.com/download/@architecture-it/stylesystem/3.4.1/abe338939bed0b8fa562b5757dbd8c16ba2f5bb6}
+  /@architecture-it/stylesystem@3.8.0(@emotion/react@11.13.3)(@emotion/styled@11.13.0)(@mui/material@5.16.7)(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-PTQLjX/OakyAXbKi+yFgfEQrc9GvycM/gRY+BcUA39RAQZQS/QNW8PizESoWfe0rqfgPhGlQMip8Eosd8tGH5g==, tarball: https://npm.pkg.github.com/download/@architecture-it/stylesystem/3.8.0/c4f304ce98c43b2234c6aea46b57d04e30703bc7}
     engines: {node: '>=16'}
     peerDependencies:
       '@emotion/react': '>=11.9.3'
