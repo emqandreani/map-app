@@ -1,12 +1,18 @@
 .root {
   width: 100%;
 
-  .mapContainer {
+  .mapWrapper {
     height: 400px;
     width: 90%;
     margin: 1rem auto;
     position: relative;
     overflow: hidden;
     border: 1px solid red;
+
+    .mapContainer {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+    }
   }
 }
